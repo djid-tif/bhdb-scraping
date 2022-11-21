@@ -1,0 +1,22 @@
+{
+  "name": "scraper_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script.js",
+    "start:dev": "node --inspect script.js",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.28.0"
+  }
+}
